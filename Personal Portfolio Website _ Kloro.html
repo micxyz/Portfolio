@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5500/try.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website | Kloro</title>
+    
+
+    
+<link rel="stylesheet" href="./Personal Portfolio Website _ Kloro_files/style.css"><link rel="stylesheet" href="./Personal Portfolio Website _ Kloro_files/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></head>
+
+<body>
+    
+   <header class="header">
+        <a href="http://127.0.0.1:5500/try.html#" class="logo">Kloro</a>
+    
+    
+    
+    <nav class="navbar">
+        <a href="http://127.0.0.1:5500/try.html#" class="active">Home</a>
+        <a href="http://127.0.0.1:5500/try.html#">About</a>
+        <a href="http://127.0.0.1:5500/try.html#">Services</a>
+        <a href="http://127.0.0.1:5500/try.html#">Portfolio</a>
+        <a href="http://127.0.0.1:5500/try.html#">Contact</a>
+    </nav>
+    </header>   
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Kloro Beauchemin</h1>
+            <h3>An aspiring Full-stack Developer</h3>
+            <p>I am a 2nd-year college student passionate about technology and web development.
+                My goal is to become a full-stack developer, skilled in both front-end and back-end 
+                programming. I enjoy learning new tools and frameworks to build efficient 
+                and user-friendly applications.</p>
+                <div class="btn-box">
+                    <a href="http://127.0.0.1:5500/try.html#">Hire Me</a>
+                    <a href="http://127.0.0.1:5500/try.html#">Let's Talk</a>
+                </div>
+        </div>
+        
+        <div class="home-img">
+            <img src="./Personal Portfolio Website _ Kloro_files/d9cadf66bb3b5e597b632f92a0fa7262.jpg" alt="Kloro">
+            <span class="home-imgHover"></span>
+        </div>
+        
+        <div class="home-sci">
+            <a href="http://127.0.0.1:5500/try.html#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="http://127.0.0.1:5500/try.html#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="http://127.0.0.1:5500/try.html#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+       
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
